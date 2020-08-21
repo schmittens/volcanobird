@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 
-from volcanobird.settings import NASA_NEO_URL, NASA_API_KEY
+from volcanobird.volcanobird.settings import NASA_NEO_URL, NASA_API_KEY
 
 def index(request):
     start_date = datetime.now().strftime("%Y-%m-%d")
