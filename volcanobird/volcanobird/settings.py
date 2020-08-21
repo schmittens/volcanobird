@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'volcanobird.urls'
+ROOT_URLCONF = 'volcanobird.volcanobird.urls'
 
 TEMPLATES = [
     {
