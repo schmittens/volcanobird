@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['volcanobird.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'asteroids.apps.AsteroidsConfig',
+    'volcanobird.asteroids.apps.AsteroidsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
