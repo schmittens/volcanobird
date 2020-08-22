@@ -1,1 +1,1 @@
-web: gunicorn volcanobird.volcanobird.wsgi --log-file -
+web: gunicorn volcanobird.wsgi --log-file -
